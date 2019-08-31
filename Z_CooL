@@ -1,0 +1,9 @@
+echo ""                                           
+if [ -e /usr/lib/sudo ];
+then
+	cd && cd ~/.ZCooL && sudo python3 .Zero_CooL.py
+else
+	cd && cd ~/.ZCooL && python3 .Zero_CooL.py
+
+fi
+exit
