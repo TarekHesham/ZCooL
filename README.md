@@ -12,7 +12,7 @@ Open the terminal and type following commands.
 
 * `pkg install git`
 
-* `git clone https://github.com/`
+* `git clone https://github.com/TarekHesham/ZCooL.git`
 
 * `cd ZCooL`
 
