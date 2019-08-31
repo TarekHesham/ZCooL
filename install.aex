@@ -1,0 +1,15 @@
+#install ZeroCooL
+pkg update
+pkg upgrade
+pkg install python figlet python2 -y
+pip install lolcat
+cp bin/Z_CooL /data/data/com.termux/files/usr/bin
+chmod 777 /data/data/com.termux/files/usr/bin/Z_CooL
+chmod +x /data/data/com.termux/files/usr/bin/Z_CooL
+chmod 777 .Zero_CooL.py
+chmod +x .Zero_CooL.py
+clear
+mkdir ~/.ZCooL
+cp -r .Zero_CooL.py tools ~/.ZCooL
+rm -rf ~/ZCooL
+echo "Finish install ZérøCóòL ...\nEnter Z_CooL"
